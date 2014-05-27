@@ -1,0 +1,357 @@
+@charset "gb2312";
+/* CSS Document */
+ body, ul, li, div, h1, h2, h3, p, form, input, img {
+	border:none;
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-size:12px;
+	color:#342d28;
+}
+body{ background:url(images/bg.png) repeat-x;}
+a{ text-decoration:none;color:#342d28;}
+a:hover {
+	color:#d63168;
+	text-decoration:underline;
+}
+/* globe style */
+h1 {
+	background:url(images/img_40.png) 0 0 no-repeat;
+	width:690px;
+	height:20px;
+	font-size:12px;
+	font-weight:normal;
+	color:#fff;
+	text-indent:25px;
+	line-height:20px;
+	line-height:22px\9;
+	position: absolute;
+}
+h1 a{ color:#fff;}
+h1 p { color:#C03; position:absolute; top:0; left:30px; font-family:Verdana; width:40px;height:35px;}
+h1 span a{ position:absolute;right:5px; top:0; font-family:Verdana;font-size:10px;}
+h2 {
+	font-size:14px;
+	font-weight:bold;
+	height:20px;
+	border-bottom:#ddd solid 1px;
+	margin:0 0 5px 0;
+	clear:both;
+	position:relative;
+}
+h2 a{color:#801f1f;}
+h2 span, h2 p {
+	position:absolute;
+}
+h2 span {
+	text-transform:uppercase;
+	color:#999;
+	font-family:Verdana;
+	font-size:12px;
+	top:2px;
+	left:65px;
+}
+h2 p {
+	right:0;
+	top:2px;
+	font-weight:normal;
+}
+h2 p a {
+	color:#cc3366;
+	padding:0 0 0 5px;
+}
+.lists {
+	margin:0 0 10px;
+}
+.lists li {
+	width:200px;	
+	float:left;
+	background:url(images/piont.png) left center no-repeat;
+	text-indent:5px;
+}
+.list li {
+	font-size:14px;
+	margin:0 0 7px 0;
+}
+.border {
+	position:absolute;
+	border:#fceff3 solid 5px;
+	padding:5px 10px;
+	width:400px;
+	left:260px;
+	height:395px;
+	overflow:hidden;
+}
+.focus {
+	left:0;
+	position:absolute;
+	width:250px;
+	overflow:hidden;
+	height:415px;
+}
+.show {
+	background:#ef4970;
+	padding:3px;
+	height:164px;
+	text-align:center;
+	overflow:hidden;
+}
+.show a, .show a:hover{
+	display:block;
+	margin:5px 0;
+	color:#fff;
+	text-align:center;
+}
+
+.show img {
+	height:140px;
+	width:244px;
+}
+.focus .list {
+	padding:10px 0 0 0;
+	background:url(images/img_29.png) bottom left repeat-x;
+	height:205px;
+}
+.focus .list li {
+	background:url(images/piont.png) 10px center no-repeat;
+	text-indent:15px;
+}
+.focus .bar {
+	background:#e0d5cf;
+	color:#483125;
+}
+.twins {
+	position:absolute;
+	top:30px;
+	left:0;
+	width:680px;
+	background:#fceff3;
+	padding:5px;
+	overflow:hidden;
+}
+.boy, .girl {
+	width:325px;
+	position:absolute;
+	top:5px;
+	padding:5px;
+	background:#fff;
+}
+.boy {
+	left:5px;
+}
+.girl {
+	left:350px;
+}
+.richlist {
+	height:138px;
+	overflow:hidden;
+	}
+.richlist .list a{ color:#16387c;}
+.richlist .list a:hover{color:#d63168;}
+.richlist img {
+	float:left;
+	width:95px;
+	height:125px;
+	padding:3px;
+	border:#e6e6e6 solid 1px;
+}
+.side {
+	position:absolute;
+	width:260px;
+	top:0;
+	right:0;
+}
+.banner {
+	height:80px;
+	padding:2px;
+	border:#e7e7e7 solid 1px;
+	margin:10px 0;
+}
+/* structure style */
+#wrap {
+	margin:0 auto;
+	width:960px;
+}
+#head, #alpha, #beta, #gama {
+	position:relative;
+}
+#head {
+	height:130px; 
+	border-bottom:#ff6f91 solid 3px;
+	margin:0 0 5px 0;
+}
+#head img{ position:absolute; top:31px;}
+#search { position:absolute; top:0; right:0; background:url(images/search.png) 0 0; width:235px;height:37px;}
+#search input{ position:absolute; top:7px; left:20px;width:160px; border:#ddd solid 1px; color:#999; text-align:center;}
+#search .button{ width:18px; height:16px; left:190px; border:none;}
+#head ul{ position:absolute; width:600px;height:35px; top:85px; left:440px;}
+#head ul li{ float:left; margin: 0 35px 0 0;font-size:15px; font-weight:bold;}
+#head ul li span{ display:block; font-family:Verdana; font-weight:normal; color:#a7a7a7; font-size:12px; margin:2px 0 0 0;}
+#head ul li a span{ position:absolute; left:415px; top:-2px;font-size:7px;color:#F00;}
+/* first setion */
+#alpha {
+	height:905px;
+}
+.micro {
+	height:90px;
+	overflow:hidden;
+}
+#alpha h1 {
+	top:462px;
+	left:0;
+}
+#flash {
+	position:absolute;
+	background:#f64b7f url(file:///C|/Users/Jason/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg) center center no-repeat;
+	padding:2px;
+	width:276px;
+	height:446px;
+	top:0;
+	left:0;
+}
+#headline {
+	position:absolute;
+	background:#f1f1f1;
+	width:400px;
+	top:0;
+	left:290px;
+	height:450px;
+	overflow:hidden;
+}
+#headline a {
+	color:#d63168;
+}
+#headline li {
+	padding:10px;
+	height:131px;
+	background:url(images/dotline.png) bottom center no-repeat;
+}
+#headline h3 {
+	height:20px;
+	font-size:12px;
+}
+#headline img {
+	float:left;
+	width:105px;
+	height:135px;
+	margin-right:10px;
+}
+#headline p {
+	line-height:20px;
+	height:95px;
+}
+#alpha .focus {
+	top:490px;
+}
+#alpha .border {
+	top:490px;
+	left:260px;
+}
+.imglist {
+	height:100px;
+	width:500px;
+	margin:0 0 10px 0;
+}
+.imglist li {
+	heith:100px;
+	width:76px;
+	border:#dadada solid 1px;
+	float:left;
+	margin:0 29px 0 0;
+	text-align:center;
+	background:#f4f4f4;
+}
+.imglist li:hover{ background:#E4E4E4;}
+.imglist img {
+	width:70px;
+	height:70px;
+	padding:3px 0;
+}
+/* second setion */
+#beta {
+	height:795px;
+}
+.beauty {
+	top:355px;
+}
+#beta .twins {
+	height:305px;
+}
+#beta .twins .list li{
+	background:url(images/piont.png) 4px center no-repeat;
+	text-indent:10px;
+}
+#beta .boy, #beta .girl {
+	height:295px;
+	overflow:hidden;
+}
+#beta .border .list {
+	height:330px;
+	padding:3px 0 0 0;
+	overflow:hidden;
+}
+#beta .focus, #beta .border {
+	top:380px;
+}
+.imghead {
+	height:85px;
+	background:#f2f2f2;
+	margin:0 0 10px 0;
+}
+.imghead img {
+	float:left;
+	margin:0 15px 0 0;
+}
+.imghead a {
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#472011;
+	line-height:30px;
+	color:#C36;
+}
+.imghead p {
+	line-height:18px;
+}
+/* third setion */
+#gama,#gama .side{ height:210px;overflow:hidden;}
+#gama .twins{ height:170px; }
+#gama .boy,#gama .girl {
+	height:160px;
+	overflow:hidden;
+}
+#gama .richlist img{ margin:0 10px 0 0;}
+/*foot style*/
+#link{ height:100px; border:#cdcdcd solid 1px; background:#f7f7f7 url(images/link_bg.png) repeat-x; text-indent:15px;margin:10px 0 0 0;}
+#link p{ font-size:14px; color:#827f7f; height:25px; font-weight:bold; line-height:28px;margin:0 0 23px 0;}
+#link ul li{ float:left;}
+#foot{ text-align:center;margin:20px 0 50px 0; line-height:20px;color:#969696; font-family:Verdana;}
+
+/* side style */
+.ad{ height:295px; overflow:hidden;}
+.bar {
+	background:#a8a8a8;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	line-height:20px;
+	text-indent:10px;
+	margin:10px 0 0 0;
+}
+.toplist {
+	background:#f1f1f1 url(images/img_21.png) 10px 15px no-repeat;
+	height:145px;
+	padding:15px 33px;
+	overflow:hidden;
+}
+.toplist li{margin:0 0 9px 0;}
+.rich{ background:#f1f1f1;height:140px; padding:10px;margin:0 0 9px 0;}
+.rich img{ width:105px; height:140px;float:left;margin:0 10px 0 0;}
+.rich span{ display:block;height:45px; line-height:18px; font-weight:bold; color:#000;}
+.rich p{ line-height:18px;height:78px;}
+.rich a{ color:#d63168;}
+.dotlist{ background:#f1f1f1 url(images/dotline.png) bottom left no-repeat;height:205px;}
+.dotlist .none{height:1px; line-height:1px;overflow:hidden;background:url(images/dotline.png) top left no-repeat;margin:0 0 10px 0; }
+.dotlist li{ background:url(images/img_31.png) 10px center no-repeat; text-indent:20px;margin:0 0 7px 0;}
+.active { width:100%; height:90px;margin:6px 0 0 0;}

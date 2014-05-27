@@ -1,0 +1,83 @@
+@charset "gb2312";
+/* CSS Document */
+body, ul, li, div, h1, h2, h3, p, form, input, img {border:none;margin:0;padding:0;list-style:none;text-decoration:none;font-size:12px;color:#342d28;}
+body{ background:url(images/bg.png) repeat-x;}
+a{ text-decoration:none;color:#342d28;}
+a:hover {color:#d63168;text-decoration:underline;}
+
+/* globe style */
+h1{	font-size:14px;line-height:30px;height:30px;padding:0 0 0 10px;background:#feeff4;position:relative;clear:both;margin:10px 0;}
+h1 a{color:#d91455;}
+h1 span, h1 p {	position:absolute;}
+h1 p {color:#999;font-family:Verdana;font-size:12px;top:0;left:75px;}
+h1 span{position:absolute;right:5px;top:0;font-weight:normal; font-size:12px;}
+h1 span a{color:#666;}
+
+.richlist ul{padding:2px 0 0 0;}
+.richlist ul li { background:url(images/piont.png) 330px center no-repeat; text-indent:7px;margin:0 0 9px 0;}
+.richlist {height:200px;overflow:hidden;}
+.richlist a{ color:#16387c;}
+.richlist a:hover{color:#d63168;}
+.richlist img {float:left;width:150px;height:200px;margin:0 15px 0 0;}
+
+.side {float:right;width:260px;}
+.banner {height:80px;padding:2px;border:#e7e7e7 solid 1px;margin:10px 0;}
+
+/* structure style */
+
+#wrap {	margin:0 auto;width:960px;}
+#head, #alpha{position:relative;}
+#head {height:130px; border-bottom:#ff6f91 solid 3px;margin:0 0 5px 0;}
+#head img{ position:absolute; top:31px;}
+#search { position:absolute; top:0; right:0; background:url(images/search.png) 0 0; width:235px;height:37px;}
+#search input{ position:absolute; top:7px; left:20px;width:160px; border:#ddd solid 1px; color:#999; text-align:center;}
+#search .button{ width:18px; height:16px; left:190px; border:none;}
+#head ul{ position:absolute; width:600px;height:35px; top:85px; left:440px;}
+#head ul li{ float:left; margin: 0 35px 0 0;font-size:15px; font-weight:bold;}
+#head ul li span{ display:block; font-family:Verdana; font-weight:normal; color:#a7a7a7; font-size:12px; margin:2px 0 0 0;}
+#head ul li a span{ position:absolute; left:415px; top:-2px;font-size:7px;color:#F00;}
+
+/* first setion */
+
+#alpha {height:905px;}
+.cube{ float:left;width:690px;}
+#flash {float:left;	background:url(images/list_03.png) no-repeat;width:400px;height:240px;margin:0 0 10px 0;margin:0\9;}
+#headline {	float:right;width:280px;height:240px;overflow:hidden;}
+#headline li {height:72px;}
+h2{height:20px; font-size:14px;}
+#headline span{ height:20px; border-bottom:#ccc solid 1px; display:block; font-size:14px; font-weight:bold; color:#880914; position:relative;margin:0 0 13px 0;}
+#headline span span{ font-family:Verdana;color:#ccc; position:absolute; left:65px; top:0;}
+#headline p{color:#999; line-height:20px;}
+#headline a{ color:#cd3367;}
+#headline p a{ color:#1645a0;}
+
+.imglist {height:105px;margin:0 0 10px 0;}
+.imglist li {heith:105px;width:115px; background:url(images/img_bg_19.png) center center no-repeat;float:left;padding:4px 0 0 0; text-align:center;}
+.imglist img {width:100px;height:100px;}
+
+
+/*foot style*/
+
+#link{ height:100px; border:#cdcdcd solid 1px; background:#f7f7f7 url(images/link_bg.png) repeat-x; text-indent:15px;margin:10px 0 0 0;}
+#link p{ font-size:14px; color:#827f7f; height:25px; font-weight:bold; line-height:28px;margin:0 0 23px 0;}
+#link ul li{ float:left;}
+#foot{ text-align:center;margin:20px 0 50px 0; line-height:20px;color:#969696; font-family:Verdana;}
+
+/* side style */
+
+.ad{ height:295px; overflow:hidden;}
+.bar {background:#a8a8a8;font-size:12px;font-weight:bold;height:20px;line-height:20px;text-indent:10px;	margin:10px 0 0 0;}
+
+.toplist {background:#f1f1f1 url(images/img_21.png) 10px 15px no-repeat;height:145px;padding:15px 33px;overflow:hidden;}
+.toplist li{margin:0 0 9px 0;}
+
+.rich{ background:#f1f1f1;height:140px; padding:10px;margin:0 0 9px 0;}
+.rich img{ width:105px; height:140px;float:left;margin:0 10px 0 0;}
+.rich span{ display:block;height:45px; line-height:18px; font-weight:bold; color:#000;}
+.rich p{ line-height:18px;height:78px;}
+.rich a{ color:#d63168;}
+
+.dotlist{ background:#f1f1f1 url(images/dotline.png) bottom left no-repeat;height:205px;}
+.dotlist .none{height:1px; line-height:1px;overflow:hidden;background:url(images/dotline.png) top left no-repeat;margin:0 0 10px 0; }
+.dotlist li{ background:url(images/img_31.png) 10px center no-repeat; text-indent:20px;margin:0 0 7px 0;}
+.active { width:100%; height:90px;margin:6px 0 0 0;}
